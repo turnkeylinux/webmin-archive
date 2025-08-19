@@ -1,21 +1,10 @@
 Webmin - Web based interface for system administration
 ======================================================
 
-Source package notes
---------------------
+UPDATE:
+=======
+The TurnKey Webmin package source repository has been significantly refactored.
+This is the archived legacy code repository. The new TurnKey Linux Webmin
+Debian package source code repository can be found at the original URL:
 
-There is a webmin debian package available upstream (maintained by Jamie
-Cameron, main author of webmin) but unfortunately, or not - depending on
-your preference, it includes all modules.
-
-This source package creates a 'webmin' minimal package aswell as
-webmin-<plugin> packages.
-
-To streamline and minimize maintenance, the:
-    - webmin package is created on-the-fly from webmin-minimal tarball
-    - webmin module and theme packages are auto-generated from their
-      relative folders
-    - modules and themes are pre-generated using a helper script which
-      uses the full tarball, aswell as creates seed control file
-      information
-
+https://github.com/turnkeylinux/webmin
